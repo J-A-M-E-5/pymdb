@@ -9,3 +9,6 @@ A pymdb python module to parse MS Access mdb files.
 To install
 ==========
 `pip install pymdb`
+
+On Mac OSX 10.11, to build for x86_64 only : `ARCHFLAGS="-arch x86_64" python setup.py build install`
+

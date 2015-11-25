@@ -25,12 +25,13 @@ pymdbbin = Feature(
             'mdbtools/src/libmdb/worktable.c'
             ],
             libraries=['glib-2.0'],
+            library_dirs = ['/usr/local/Cellar/glib/2.46.2/lib'],
             include_dirs=[
                 'mdbtools/include', 
                 '../../mdbtools/include', 
                 '/usr/local/include', 
                 "/usr/local/include/glib-2.0",
-                "/usr/local/Cellar/glib/2.34.3/lib/glib-2.0/include",
+                "/usr/local/Cellar/glib/2.46.2/lib/glib-2.0/include",
                 "/usr/include/glib-2.0",
                 "/usr/lib/glib-2.0/include",
                 "/usr/lib/x86_64-linux-gnu/glib-2.0/include"]
